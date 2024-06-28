@@ -1,0 +1,148 @@
+/* #region General */
+/******************************
+* General
+******************************/
+
+@font-face {
+  font-family: 'Heebo';
+  font-style: normal;
+  src: url('../fonts/Heebo.ttf');
+}
+@font-face {
+  font-family: 'MeieScript';
+  font-style: cursive;
+  src: url('../fonts/MeieScript.ttf');
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url('../images/main_bg.jpg');
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: Heebo;
+}
+#wrapper {
+  width: 70%;
+  padding: 2%;
+  margin: 4% auto;
+  border: 1px solid #333;
+  border-radius: 2%;
+  background-image: url('../images/inner_bg.jpg');
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* #endregion */
+
+/* #region Header */
+/******************************
+* Header
+******************************/
+nav li {
+  display: inline;
+}
+nav a:link,
+nav a:visited {
+  font-size: 1.4em;
+  color: white;
+  text-decoration: none;
+  margin: 1em;
+  padding: 0.4em;
+}
+nav a:hover {
+  border-bottom: 1px solid white;
+}
+/* #endregion */
+
+/* #region Main */
+/******************************
+* Main
+******************************/
+main {
+  padding: 1em;
+  display: flex;
+  flex-wrap: wrap;
+}
+main > div:first-child {
+  padding-top: 6%;
+}
+main > div {
+  flex: 50%;
+}
+h1 {
+  font-size: 6em;
+  color: white;
+}
+h1 > span {
+  font-family: MeieScript;
+}
+img {
+  width: 100%;
+}
+p {
+  font-size: 1.7em;
+  margin: 25% 0 7% 0;
+  color: white;
+}
+#playBtn:link,
+#playBtn:visited {
+  font-size: 1.7em;
+  color: white;
+  text-decoration: none;
+  border: 1px solid #333;
+  border-radius: 1.3em;
+  padding: 0.5em 1em;
+  background-image: url('../images/btn_bg.png');
+  background-repeat: bottom left;
+}
+/* #endregion */
+
+/* #region Footer */
+/******************************
+* Footer
+******************************/
+footer {
+  text-align: center;
+  padding-top: 3%;
+}
+footer > span {
+  font-size: 1em;
+  color: white;
+}
+/* #endregion */
+
+/* #region Responsive */
+@media only screen and (max-width: 820px) {
+  #wrapper {
+    width: 98%;
+  }
+  img {
+    margin-top: 15%;
+  }
+  footer > span {
+    font-size: 1.4em;
+  }
+  p {
+    margin: 10% 0 7% 0;
+  }
+}
+@media only screen and (max-width: 400px) {
+  nav li {
+    display: block;
+    text-align: center;
+  }
+  h1 {
+    font-size: 4.7em;
+  }
+  footer > span {
+    font-size: 1.1em;
+  }
+}
+/* #endregion */
