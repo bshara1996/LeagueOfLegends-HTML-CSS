@@ -3,7 +3,7 @@
 A modern, responsive landing page for League of Legends built with pure HTML and CSS. This project showcases a clean, professional design with custom typography and responsive layouts.
 
 <p align="center">
-  <img src="./images/arcane.png" alt="League of Legends" width="400">
+  <img src="./images/ScreenShoot.png" alt="League of Legends" width="200">
 </p>
 
 ## 🎮 Features
@@ -120,39 +120,6 @@ The page adapts to three main screen sizes:
 
 ### Footer
 - Copyright information
-
-## 🎯 Future Enhancements
-
-Potential improvements for this project:
-
-- [ ] Add JavaScript for interactive elements
-- [ ] Implement additional pages (Champions, News, etc.)
-- [ ] Add animations and transitions
-- [ ] Include a champion carousel
-- [ ] Add form elements for user registration
-- [ ] Integrate with League of Legends API
-- [ ] Add dark/light theme toggle
-- [ ] Implement accessibility improvements (ARIA labels, keyboard navigation)
-
-## 📝 License
-
-All rights reserved Riot Games © 2023
-
-> **Note**: This is a fan-made project for educational purposes. League of Legends and all related content are trademarks of Riot Games.
-
-## 🤝 Contributing
-
-This is a learning project, but suggestions and improvements are welcome! Feel free to:
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-## 📧 Contact
-
-For questions or feedback about this project, please open an issue in the repository.
 
 ---
 
