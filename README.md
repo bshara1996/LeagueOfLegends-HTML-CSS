@@ -2,7 +2,9 @@
 
 A modern, responsive landing page for League of Legends built with pure HTML and CSS. This project showcases a clean, professional design with custom typography and responsive layouts.
 
-![League of Legends](./images/arcane.png)
+<p align="center">
+  <img src="./images/arcane.png" alt="League of Legends" width="400">
+</p>
 
 ## 🎮 Features
 
